@@ -9,7 +9,7 @@ The project is divided into modular Python scripts to separate concerns:
 - **main.py**: The entry point that runs the entire analysis pipeline.
 - **data_loader.py**: Fetches historical stock prices using the Yahoo Finance API and saves them locally.
 - **data_processor.py**: Reads the raw data, calculates daily percentage changes, expected annual returns, and the covariance matrix.
-- **portfolio_optimizer.py**: Runs 50,000 Monte Carlo simulation iterations to find the portfolio with the maximum Sharpe ratio and the minimum risk.
+- **portfolio_optimizer.py**: Runs 100,000 Monte Carlo simulation iterations to find the portfolio with the maximum Sharpe ratio and the minimum risk.
 - **analytics_report.py**: Prints a structured text summary of the optimization results and asset weights to the terminal.
 - **visualizer.py**: Generates an Efficient Frontier scatter plot using Matplotlib to visualize risk-return trade-offs.
 
