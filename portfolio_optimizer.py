@@ -4,7 +4,7 @@ import data_loader as sd
 from numpy import random as rnd
 
 # Simulation parameters
-numberOf_Portfolios = 150000
+numberOf_Portfolios = 50000
 risk_free_rate = 0.39
 stock_number = len(sd.stocks)
 
