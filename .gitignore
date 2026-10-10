@@ -1,0 +1,12 @@
+.venv/
+venv/
+ENV/
+
+__pycache__/
+*.pyc
+*.pyo
+
+.idea/
+.vscode/
+
+stocks_prices.csv
