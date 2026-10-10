@@ -8,7 +8,7 @@ import data_loader as sd
 data = pd.read_csv("stocks_prices.csv", index_col=0, parse_dates=True)
 
 # Compute daily percentage changes and drop missing values
-daily_changes = data.pct_change().dropna()
+daily_changes = data.pct_change().ffill().dropna()
 
 # Annualize expected returns and covariance matrix (252 trading days)
 portfolio_data = daily_changes[sd.stocks]

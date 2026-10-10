@@ -2,7 +2,11 @@ import os
 import yfinance as yf
 
 # Target assets and benchmark definition
-stocks = ["THYAO.IS", "GARAN.IS", "KCHOL.IS", "ASELS.IS", "TUPRS.IS"]
+stocks = [
+    "THYAO.IS", "GARAN.IS", "KCHOL.IS", "ASELS.IS", "TUPRS.IS",
+    "AKBNK.IS", "SAHOL.IS", "EREGL.IS", "SISE.IS", "FROTO.IS",
+    "BIMAS.IS", "TCELL.IS", "ISCTR.IS", "PGSUS.IS", "MGROS.IS"
+]
 benchmark = "XU100.IS"
 all_stocks = stocks + [benchmark]
 

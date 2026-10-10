@@ -52,14 +52,14 @@ plt.scatter(
 for i, stock in enumerate(sd.stocks):
   stock_risk = np.sqrt(rc.yearly_covariance.iloc[i, i])
   stock_income = rc.yearly_return.iloc[i]
-  plt.scatter(stock_risk, stock_income, marker="o", s=80, edgecolors="black")
+  plt.scatter(stock_risk, stock_income, marker="o", s=35, edgecolors="black")
   plt.annotate(
       stock,
       (stock_risk, stock_income),
       textcoords="offset points",
       xytext=(0, 10),
       ha="center",
-      fontsize=9,
+      fontsize=7,
       fontweight="bold",
   )
 
