@@ -5,7 +5,7 @@ from numpy import random as rnd
 
 # Simulation parameters
 numberOf_Portfolios = 150000
-risk_free_rate = 0.25
+risk_free_rate = 0.35
 stock_number = len(sd.stocks)
 
 # Set seed for reproducible results
